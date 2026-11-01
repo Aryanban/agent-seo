@@ -38,7 +38,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ORPHAN_SCRIPT_WHITELIST = {
     "portability_check.py", "agent_ux_check.py", "gbp_deprecation_lint.py",
-    "release_sign.py", "verify_release.py", "consistency_check.py",
+    "release_sign.py", "verify_release.py", "consistency_check.py", "universal_audit.py",
 }
 GENERIC_BASENAMES = {"README.md", "SKILL.md", "__init__.py", "LICENSE", "LICENSE.txt",
                      "plugin.json", "marketplace.json", "hooks.json"}

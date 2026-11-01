@@ -24,13 +24,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgriciDaniel/claude-seo/actions/workflows/ci.yml"><img src="https://github.com/AgriciDaniel/claude-seo/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://claude.com/product/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Plugin-blue" alt="Claude Code plugin" /></a>
+  <a href="https://github.com/Aryanban/claude-seo/actions/workflows/ci.yml"><img src="https://github.com/Aryanban/claude-seo/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="GEMINI.md"><img src="https://img.shields.io/badge/Google%20Antigravity-Gemini%202.5-4285F4" alt="Google Antigravity & Gemini" /></a>
+  <a href="CLAUDE.md"><img src="https://img.shields.io/badge/Claude%20Code-Plugin-blue" alt="Claude Code plugin" /></a>
+  <a href="AGENTS.md"><img src="https://img.shields.io/badge/Harness-Universal%20Agent-purple" alt="Universal Agent" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
-  <a href="https://github.com/AgriciDaniel/claude-seo/releases"><img src="https://img.shields.io/github/v/release/AgriciDaniel/claude-seo" alt="Version" /></a>
-  <a href="tests/"><img src="https://img.shields.io/badge/tests-1077%20passing-brightgreen" alt="Tests" /></a>
-  <a href="https://github.com/AgriciDaniel/claude-seo"><img src="https://img.shields.io/github/stars/AgriciDaniel/claude-seo?style=flat" alt="GitHub stars" /></a>
-  <a href="https://www.skool.com/ai-marketing-hub-pro"><img src="https://img.shields.io/badge/AI%20Marketing%20Hub-Pro%20community-purple" alt="AI Marketing Hub Pro community" /></a>
 </p>
 
 <p align="center">
@@ -48,6 +46,33 @@ It checks everything a good SEO consultant would:
 - **Local and e-commerce SEO.** Google Business Profile, reviews, map pack, product pages and international sites.
 
 Claude SEO is built from 26 sub-skills and 19 specialist agents, and up to 17 agents work on your site at the same time. Every recommendation explains why it matters and how you will know it worked.
+
+---
+
+## 🌐 Universal Agent & Google Antigravity Support
+
+This fork introduces native **Google Antigravity (AGY)** and **Gemini model** support alongside multi-harness interoperability:
+
+- **Google Antigravity & Gemini**: Full instructions in [`GEMINI.md`](GEMINI.md). Runs natively with `gemini-2.5-pro` and `gemini-2.5-flash`.
+- **Install for Antigravity**:
+  ```bash
+  # Install skills globally into ~/.gemini/config/skills
+  bash scripts/install-antigravity.sh --global
+
+  # Or install locally into current workspace (.agents/skills)
+  bash scripts/install-antigravity.sh --local
+  ```
+- **Universal Multi-Harness Launcher**: Works across Claude Code, Cursor, OpenAI Codex, Windsurf, and standalone CI/CD runners via `./scripts/universal-seo`:
+  ```bash
+  # Run a complete multi-axis SEO & AEO audit directly:
+  ./scripts/universal-seo run universal_audit.py https://example.com --json
+  ```
+- **Harness Matrix**:
+  - **Antigravity**: Progressive skill disclosure + subagents via `define_subagent` / `invoke_subagent`.
+  - **Claude Code**: Full slash commands (`/seo audit`, `/seo page`, etc.) via `.claude-plugin/`.
+  - **Cursor / Windsurf**: Auto-discovers rules via [`AGENTS.md`](AGENTS.md).
+  - **Standalone / CI**: Direct execution without requiring an LLM harness.
+
 
 ## See it in action
 
