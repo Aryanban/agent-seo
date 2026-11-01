@@ -1,8 +1,8 @@
-# Google Antigravity & Gemini Agent Instructions: Universal SEO Suite
+# Google Antigravity & Gemini Agent Instructions: Agent SEO Suite
 
-> **Universal Agent SEO**: Harness-agnostic, open-source SEO & AEO intelligence engine.
+> **Agent SEO**: Universal, harness-agnostic, open-source SEO & AEO intelligence engine.
 > Tailored for **Google Antigravity (AGY)** with **Gemini models** (`gemini-2.5-pro`, `gemini-2.5-flash`),
-> while remaining 100% interoperable across Claude Code, Cursor, Codex, Windsurf, and standalone CI/CD runners.
+> while remaining 100% interoperable across Claude Code, Cursor, Codex, Windsurf, OpenCode, and standalone CI/CD runners.
 
 ---
 
@@ -28,26 +28,26 @@ When dispatching subagents via `invoke_subagent`:
 
 ## 2. Command Execution & Managed Runtime
 
-All bundled Python tools execute through the managed, isolated environment via `./scripts/universal-seo`:
+All bundled Python tools execute through the managed, isolated environment via `./scripts/agent-seo`:
 
 ```bash
 # Verify environment and Chromium readiness
-./scripts/universal-seo doctor
+./scripts/agent-seo doctor
 
 # Run full multi-axis audit (orchestrates technical, content, schema, GEO, CWV)
-./scripts/universal-seo run universal_audit.py <URL> --json
+./scripts/agent-seo run universal_audit.py <URL> --json
 
 # Discovery and sitemap validation
-./scripts/universal-seo run sitemap_discovery.py <URL> --json
+./scripts/agent-seo run sitemap_discovery.py <URL> --json
 
 # Headless page rendering and SSR/SPA analysis
-./scripts/universal-seo run render_page.py <URL> --mode auto --json
+./scripts/agent-seo run render_page.py <URL> --mode auto --json
 
 # AI Agent & GEO readiness audit (llms.txt, AI crawlers, WebMCP)
-./scripts/universal-seo run agentic_check.py <URL> --json
+./scripts/agent-seo run agentic_check.py <URL> --json
 ```
 
-*Note: `./scripts/claude-seo` remains fully supported as a transparent backward-compatible alias.*
+*Note: `./scripts/universal-seo` and `./scripts/claude-seo` remain fully supported as transparent backward-compatible aliases.*
 
 ---
 

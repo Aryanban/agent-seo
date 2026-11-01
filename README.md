@@ -1,16 +1,16 @@
 <!--
-  Claude SEO (claude-seo): free, open-source SEO audit plugin for Claude Code by Agrici Daniel.
-  Technical SEO, Core Web Vitals, E-E-A-T, Schema.org, AI search (GEO), local SEO, e-commerce and international SEO.
+  Agent SEO (agent-seo): free, open-source SEO audit and AEO intelligence suite for Claude Code, Google Antigravity, ChatGPT Codex, Cursor, Windsurf, and universal AI agents.
+  Technical SEO, Core Web Vitals, E-E-A-T, Schema.org, AI search (GEO), local SEO, e-commerce, international SEO, and SEOForge MCP integration.
   26 sub-skills and 19 specialist agents. MIT licensed.
 -->
 
-<img src="assets/readme/v3/hero.svg" width="1200" height="420" alt="Claude SEO: rank in Google, get cited by AI. Three bots climb from #48 to #1 by fixing crawl, speed, schema, AI access and authority, then Google, ChatGPT, Perplexity, Gemini and Claude cite the site." />
+<img src="assets/readme/v3/hero.svg" width="1200" height="420" alt="Agent SEO: rank in Google, get cited by AI. Three bots climb from #48 to #1 by fixing crawl, speed, schema, AI access and authority, then Google, ChatGPT, Perplexity, Gemini and Claude cite the site." />
 
-<h1 align="center">Claude SEO</h1>
+<h1 align="center">Agent SEO</h1>
 
 <p align="center">
-  <b>Free, open-source SEO audits inside <a href="https://claude.com/product/claude-code">Claude Code</a>.</b><br />
-  Rank higher in Google and get cited by AI search.
+  <b>Universal, open-source SEO & AEO audits inside <a href="https://claude.com/product/claude-code">Claude Code</a>, <a href="https://deepmind.google/technologies/gemini/">Google Antigravity (Gemini)</a>, <a href="https://openai.com">ChatGPT Codex</a>, <a href="https://cursor.com">Cursor</a>, and CLI runners.</b><br />
+  Rank higher in Google and get cited by AI answer engines (ChatGPT Search, Perplexity, Google AI Overviews, Gemini).
 </p>
 
 <p align="center">
@@ -24,10 +24,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Aryanban/claude-seo/actions/workflows/ci.yml"><img src="https://github.com/Aryanban/claude-seo/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://github.com/Aryanban/agent-seo/actions/workflows/ci.yml"><img src="https://github.com/Aryanban/agent-seo/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="GEMINI.md"><img src="https://img.shields.io/badge/Google%20Antigravity-Gemini%202.5-4285F4" alt="Google Antigravity & Gemini" /></a>
   <a href="CLAUDE.md"><img src="https://img.shields.io/badge/Claude%20Code-Plugin-blue" alt="Claude Code plugin" /></a>
   <a href="AGENTS.md"><img src="https://img.shields.io/badge/Harness-Universal%20Agent-purple" alt="Universal Agent" /></a>
+  <a href="https://github.com/Aryanban/seoforge"><img src="https://img.shields.io/badge/SEOForge-35%20Tools%20MCP-10b981" alt="SEOForge MCP" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
 </p>
 
